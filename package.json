@@ -1,0 +1,16 @@
+{
+  "name": "snake_game",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
